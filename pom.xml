@@ -36,9 +36,9 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.nttdata.retostarter</groupId>
-            <artifactId>starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>com.nttdata</groupId>
+            <artifactId>retostarter</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 

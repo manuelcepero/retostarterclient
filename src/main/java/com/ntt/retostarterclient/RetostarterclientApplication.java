@@ -1,6 +1,7 @@
 package com.ntt.retostarterclient;
 
 import com.ntt.retostarterclient.service.Servicio;
+import com.nttdata.retostarter.estado.Estado;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

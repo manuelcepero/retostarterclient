@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author Manuel
  */
-@RestController
+
 public class Servicio {
 
     Logger logger = LoggerFactory.getLogger(Service.class);

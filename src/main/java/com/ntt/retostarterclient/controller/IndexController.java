@@ -1,6 +1,7 @@
 package com.ntt.retostarterclient.controller;
 
 
+import com.nttdata.retostarter.estado.Estado;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -25,9 +26,8 @@ public class IndexController {
     @Autowired
     private Estado estado;
 
-    @GetMapping("/estado")
-    public ResponseEntity<String> saludo() {
-
-        return new ResponseEntity<String>(HttpStatus.OK).ok(estado.mensajeEstado());
+    @GetMapping("/writer")
+    public ResponseEntity<String> setEstado(String estadoEnviar) {
+        return new ResponseEntity<String>(HttpStatus.OK).ok(estado.getEstado());
     }
 }
